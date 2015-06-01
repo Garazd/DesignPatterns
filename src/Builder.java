@@ -7,14 +7,14 @@ public class Builder {
 
     Builder(final ConcreteBuilder concreteBuilder) {
         this.name = concreteBuilder.getName();
-        this.surname = surname;
-        this.mail = mail;
-        this.phone = phone;
-        this.address = address;
+        this.surname = concreteBuilder.getSurname();
+        this.mail = concreteBuilder.getMail();
+        this.phone = concreteBuilder.getPhone();
+        this.address = concreteBuilder.getAddress();
     }
 }
 
-public class ConcreteBuilder {
+class ConcreteBuilder {
     private static String name;
     private static String surname;
     private static String mail;
@@ -64,5 +64,21 @@ public class ConcreteBuilder {
 
     public static String getAddress() {
         return address;
+    }
+
+    public Builder builder() {
+        return new Builder(this);
+    }
+}
+
+class Contact{
+    public static void main(String[] args) {
+        final Builder contact = new ConcreteBuilder()
+                .name("Vitaliy")
+                .surname("Zlenko")
+                .mail("test@gmail.com")
+                .phone("0123456789")
+                .address("test 27")
+                .builder();
     }
 }
