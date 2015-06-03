@@ -1,4 +1,5 @@
 public class Builder {
+
     private static String name;
     private static String surname;
     private static String mail;
@@ -6,6 +7,7 @@ public class Builder {
     private static String address;
 
     Builder(final ConcreteBuilder concreteBuilder) {
+
         this.name = concreteBuilder.getName();
         this.surname = concreteBuilder.getSurname();
         this.mail = concreteBuilder.getMail();
@@ -15,33 +17,34 @@ public class Builder {
 }
 
 class ConcreteBuilder {
+
     private static String name;
     private static String surname;
     private static String mail;
     private static String phone;
     private static String address;
 
-    public ConcreteBuilder name(final String name){
+    public ConcreteBuilder name(final String name) {
         this.name = name;
         return this;
     }
 
-    public ConcreteBuilder surname(final String surname){
+    public ConcreteBuilder surname(final String surname) {
         this.surname = surname;
         return this;
     }
 
-    public ConcreteBuilder mail(final String mail){
+    public ConcreteBuilder mail(final String mail) {
         this.mail = mail;
         return this;
     }
 
-    public ConcreteBuilder phone(final String phone){
+    public ConcreteBuilder phone(final String phone) {
         this.phone = phone;
         return this;
     }
 
-    public ConcreteBuilder address(final String address){
+    public ConcreteBuilder address(final String address) {
         this.address = address;
         return this;
     }
@@ -71,7 +74,7 @@ class ConcreteBuilder {
     }
 }
 
-class Contact{
+class Contact {
     public static void main(String[] args) {
         final Builder contact = new ConcreteBuilder()
                 .name("Vitaliy")
