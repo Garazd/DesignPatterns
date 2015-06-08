@@ -1,5 +1,4 @@
 public class Builder {
-
     private static String name;
     private static String surname;
     private static String mail;
@@ -7,7 +6,6 @@ public class Builder {
     private static String address;
 
     Builder(final ConcreteBuilder concreteBuilder) {
-
         this.name = concreteBuilder.getName();
         this.surname = concreteBuilder.getSurname();
         this.mail = concreteBuilder.getMail();
@@ -17,7 +15,6 @@ public class Builder {
 }
 
 class ConcreteBuilder {
-
     private static String name;
     private static String surname;
     private static String mail;
