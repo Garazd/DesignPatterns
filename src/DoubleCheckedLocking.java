@@ -1,5 +1,4 @@
 public class DoubleCheckedLocking {
-
     private static DoubleCheckedLocking instance;
 
     private DoubleCheckedLocking() {
