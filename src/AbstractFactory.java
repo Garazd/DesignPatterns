@@ -35,3 +35,17 @@ class MacOSFactory implements AbstractFactory {
         return new MacOSLabel();
     }
 }
+
+class WindowsButton implements Button {
+    @Override
+    public void button() {
+        System.out.println("I'm a WindowsButton");
+    }
+}
+
+class MacOSButton implements Button {
+    @Override
+    public void button() {
+        System.out.println("I'm a MacOSButton");
+    }
+}
