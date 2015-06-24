@@ -1,3 +1,5 @@
+package builder;
+
 public class Builder {
     private static String name;
     private static String surname;

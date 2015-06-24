@@ -1,3 +1,5 @@
+package singleton;
+
 public class DoubleCheckedLocking {
     private static DoubleCheckedLocking instance;
 
