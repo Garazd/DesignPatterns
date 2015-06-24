@@ -49,3 +49,17 @@ class MacOSButton implements Button {
         System.out.println("I'm a MacOSButton");
     }
 }
+
+class WindowsLabel implements Label {
+    @Override
+    public void label() {
+        System.out.println("I'm a WindowsLabel");
+    }
+}
+
+class MacOSLabel implements Label {
+    @Override
+    public void label() {
+        System.out.println("I'm a MacOSLabel");
+    }
+}
