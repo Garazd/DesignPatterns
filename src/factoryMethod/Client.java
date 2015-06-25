@@ -9,7 +9,7 @@ public class Client {
     }
 
     public static void main(String[] args) {
-        AbstractCreator creator = new Creator();
+        AbstractCreator creator = new ConcreteCreator();
         Client client = new Client();
         client.someMethodThatLogs(creator);
     }
