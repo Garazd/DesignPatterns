@@ -5,11 +5,11 @@ public class Empty extends Cell {
     public Empty(int left, int top) {
         super(left, top);
 
-        // загружаем тяжелое изображение пустой ячейки.
+        // Download large image empty cell
     }
 
     @Override
     public int getPoints() {
-        return 10;  // 10 очков за открытую пустую ячейку
+        return 10;  // 10 points for open an empty cell
     }
 }
