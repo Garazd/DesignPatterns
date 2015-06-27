@@ -1,7 +1,7 @@
 package proxy;
 
 public class EmptyProxy extends Cell {
-    private Empty proxy; // ссылка на пустую ячейку
+    private Empty proxy;
 
     public EmptyProxy(int left, int top) {
         super(left, top);
