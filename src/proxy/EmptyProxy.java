@@ -13,7 +13,6 @@ public class EmptyProxy extends Cell {
         if (proxy == null) {
             proxy = new Empty(left, top);
         }
-
         proxy.open();
     }
 
@@ -24,7 +23,6 @@ public class EmptyProxy extends Cell {
         } else {
             return proxy.getLeft();
         }
-
     }
 
     @Override
