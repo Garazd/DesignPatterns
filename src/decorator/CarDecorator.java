@@ -2,10 +2,10 @@ package decorator;
 
 public class CarDecorator implements Car {
 
-    protected Car car;
+    Car car;
 
     public CarDecorator(Car c){
-        this.car=c;
+        this.car = c;
     }
 
     @Override
