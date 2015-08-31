@@ -1,4 +1,4 @@
-package adapter.adapter4;
+package designPatterns.adapter.adapter4;
 
 public class AdapteeImpl implements Adaptee {
 

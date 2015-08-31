@@ -1,4 +1,4 @@
-package adapter.adapter1;
+package designPatterns.adapter.adapter4;
 
 public class Adapter implements Target {
 
