@@ -1,4 +1,4 @@
-package abstractFactory;
+package designPatterns.abstractFactory;
 
 class Application {
     public Application(AbstractFactory factory) {

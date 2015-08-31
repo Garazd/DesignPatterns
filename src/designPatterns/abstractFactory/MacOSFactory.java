@@ -1,4 +1,4 @@
-package abstractFactory;
+package designPatterns.abstractFactory;
 
 class MacOSFactory implements AbstractFactory {
     @Override

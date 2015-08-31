@@ -1,4 +1,4 @@
-package abstractFactory;
+package designPatterns.abstractFactory;
 
 class MacOSButton implements Button {
     @Override

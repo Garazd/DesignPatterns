@@ -1,4 +1,4 @@
-package abstractFactory;
+package designPatterns.abstractFactory;
 
 class MacOSLabel implements Label {
     @Override

@@ -1,4 +1,4 @@
-package abstractFactory;
+package designPatterns.abstractFactory;
 
 class ApplicationRunner {
     public static void main(String[] args) {
