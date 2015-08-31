@@ -1,4 +1,4 @@
-package adapter.adapter6;
+package designPatterns.adapter.adapter5;
 
 public interface Target {
 
