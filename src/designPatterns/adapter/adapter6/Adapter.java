@@ -1,4 +1,4 @@
-package adapter.adapter6;
+package designPatterns.adapter.adapter6;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
