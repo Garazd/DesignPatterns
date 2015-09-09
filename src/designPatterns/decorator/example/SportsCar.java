@@ -1,4 +1,4 @@
-package decorator;
+package designPatterns.decorator.example;
 
 public class SportsCar extends CarDecorator {
 
