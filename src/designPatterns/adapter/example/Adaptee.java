@@ -1,4 +1,4 @@
-package adapter;
+package designPatterns.adapter.example;
 
 public class Adaptee {
 
