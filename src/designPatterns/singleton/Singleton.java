@@ -1,4 +1,4 @@
-package singleton;
+package designPatterns.singleton;
 
 public class Singleton {
     private static Singleton instance = new Singleton();

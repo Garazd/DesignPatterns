@@ -1,4 +1,4 @@
-package singleton;
+package designPatterns.singleton;
 
 public class DoubleCheckedLocking {
     private static DoubleCheckedLocking instance;

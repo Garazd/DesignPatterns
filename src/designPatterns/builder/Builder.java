@@ -1,4 +1,4 @@
-package builder;
+package designPatterns.builder;
 
 public class Builder {
     private static String name;
