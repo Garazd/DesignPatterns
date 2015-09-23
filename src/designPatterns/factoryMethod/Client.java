@@ -1,4 +1,4 @@
-package factoryMethod;
+package designPatterns.factoryMethod;
 
 public class Client {
 
