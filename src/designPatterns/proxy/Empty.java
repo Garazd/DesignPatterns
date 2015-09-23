@@ -1,4 +1,4 @@
-package proxy;
+package designPatterns.proxy;
 
 public class Empty extends Cell {
 

@@ -1,4 +1,4 @@
-package proxy;
+package designPatterns.proxy;
 
 public class Client {
     public static void main(String[] args) {

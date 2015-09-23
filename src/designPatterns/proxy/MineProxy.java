@@ -1,4 +1,4 @@
-package proxy;
+package designPatterns.proxy;
 
 public class MineProxy extends Cell {
     private Mine proxy;
