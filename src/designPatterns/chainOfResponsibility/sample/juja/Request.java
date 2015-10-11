@@ -59,7 +59,7 @@ public class Request {
         if (name != null) {
             result.append(name).append(": ").append(message).append('\n');
         } else {
-            result.append("amount: ").append(message).append('\n');
+            result.append("anonym: ").append(message).append('\n');
         }
         result.append("Type: ").append(type.name().toUpperCase()).append('\n');
         if (amount > 0 || debt > 0) {
