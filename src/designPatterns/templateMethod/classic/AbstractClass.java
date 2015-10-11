@@ -16,14 +16,14 @@ public abstract class AbstractClass {
 
     // реализация алгоритма 1 по-умолчанию
     // наследники реализуют ее только, если захотят
-    protected Object algorithm1() {
+    public Object algorithm1() {
         return "default_algorithm1";
     }
 
     // все последующие методы-алгоритмы должны быть реализованы наследниками
-    protected abstract void algorithm2(Object input);
+    public abstract void algorithm2(Object input);
 
-    protected abstract void algorithm3();
+    public abstract void algorithm3();
 
-    protected abstract Object algorithm4(Object input);
+    public abstract Object algorithm4(Object input);
 }
