@@ -24,17 +24,17 @@ public class AbstractClassTest {
         // нам потребуетс€ дореализовать его анонимно
         AbstractClass object = new AbstractClass() {
             @Override
-            protected void algorithm2(Object input) {
+            public void algorithm2(Object input) {
                 algorithm2Input = input;
             }
 
             @Override
-            protected void algorithm3() {
+            public void algorithm3() {
                 callAlgorithm3 = true;
             }
 
             @Override
-            protected Object algorithm4(Object input) {
+            public Object algorithm4(Object input) {
                 algorithm4Input = input;
                 return "stub4";
             }
