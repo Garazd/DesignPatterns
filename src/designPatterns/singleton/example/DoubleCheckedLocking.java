@@ -1,4 +1,4 @@
-package designPatterns.singleton;
+package designPatterns.singleton.example;
 
 public class DoubleCheckedLocking {
     private static DoubleCheckedLocking instance;
