@@ -1,14 +1,15 @@
 package testPatterns.testVisitor.sample.garland;
 
-import org.junit.Before;
-import org.junit.Test;
-import testPatterns.testVisitor.ConsoleMock;
 import designPatterns.visitor.sample.element.Bell;
 import designPatterns.visitor.sample.element.Color;
 import designPatterns.visitor.sample.element.Laser;
 import designPatterns.visitor.sample.element.Led;
+import designPatterns.visitor.sample.garland.Player;
 import designPatterns.visitor.sample.midi.Synthesizer;
 import designPatterns.visitor.sample.music.Music;
+import org.junit.Before;
+import org.junit.Test;
+import testPatterns.testVisitor.ConsoleMock;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
