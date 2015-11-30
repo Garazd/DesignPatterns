@@ -1,7 +1,8 @@
 package testPatterns.testVisitor.sample.garland;
 
-import org.junit.Test;
+import designPatterns.visitor.sample.garland.Node;
 import designPatterns.visitor.sample.music.Music;
+import org.junit.Test;
 
 import static org.junit.Assert.assertSame;
 
