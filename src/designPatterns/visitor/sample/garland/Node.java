@@ -7,11 +7,11 @@ import designPatterns.visitor.sample.element.Changeable;
 // что все наследники будут Changeable
 public abstract class Node implements Changeable {
 
-    protected Node next;
-    protected Node prev;
+    public Node prev;
+    public Node next;
 
     // для добавления ноды в конец
-    protected <T extends Node> T add(T node) {
+    public <T extends Node> T add(T node) {
         next = node;
         node.prev = this;
         return node;
