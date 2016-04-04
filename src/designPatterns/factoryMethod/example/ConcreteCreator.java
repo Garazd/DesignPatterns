@@ -1,4 +1,4 @@
-package designPatterns.factoryMethod;
+package designPatterns.factoryMethod.example;
 
 public class ConcreteCreator extends AbstractCreator{
     @Override
