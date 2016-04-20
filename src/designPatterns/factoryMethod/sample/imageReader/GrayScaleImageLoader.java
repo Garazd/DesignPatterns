@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 public class GrayScaleImageLoader extends Loader {
 
     @Override
-    protected Image createImage(BufferedImage image) {
+    public Image createImage(BufferedImage image) {
         // он оборачивает BufferedImage в BlackAndWhiteImage,
         // который сохранит только ЧБ составляющую
         return new GrayScaleImage(image);

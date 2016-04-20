@@ -8,7 +8,7 @@ package designPatterns.factoryMethod.classic.case2_abstractClass;
 public abstract class Creator {
 
     // каждая фабрика должна реализовать этот абстрактный фектори метод
-    protected abstract Product factoryMethod();
+    public abstract Product factoryMethod();
 
     // а это полезная логика по настройке продукта,
     // а ты заметил тут templateMethod?

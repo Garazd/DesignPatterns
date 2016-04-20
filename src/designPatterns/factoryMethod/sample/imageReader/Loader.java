@@ -9,7 +9,7 @@ import java.io.IOException;
 public abstract class Loader {
 
     // это factory method
-    protected abstract Image createImage(BufferedImage image);
+    public abstract Image createImage(BufferedImage image);
 
     // a это template method :)
     // метод загрузки рисунков из файлов одинаков для всех типов

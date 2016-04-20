@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 public class ColorImageLoader extends Loader {
 
     @Override
-    protected Image createImage(BufferedImage image) {
+    public Image createImage(BufferedImage image) {
         // он оборачивает BufferedImage в ColorImage который сохраняет его в полном цвете
         return new ColorImage(image);
     }

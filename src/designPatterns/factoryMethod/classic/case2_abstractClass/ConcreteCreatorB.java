@@ -4,7 +4,7 @@ package designPatterns.factoryMethod.classic.case2_abstractClass;
 public class ConcreteCreatorB extends Creator {
 
     @Override
-    protected Product factoryMethod() {
+    public Product factoryMethod() {
         return new ConcreteProductB();
     }
 }
